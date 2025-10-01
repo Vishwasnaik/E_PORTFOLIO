@@ -1,0 +1,203 @@
+/* styles.css */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+}
+ /* HEADER */
+header{
+    text-decoration: none;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;/*used to make the all div in same line*/
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.border{
+    border:2px solid transparent;
+}
+
+
+.border:hover{
+    border:2px solid darkorange;
+}
+
+
+
+h1{ 
+    text-align:left;
+    color:darkorange;
+    margin-left:37px;
+    width:50%;
+    text-decoration: none;
+}
+
+
+
+span{
+    color:white;
+}
+
+p{
+    color:darkorange;
+}
+
+
+.Home a{
+    font-weight:19;
+    color:darkorange;
+    text-decoration: none;
+}
+
+.About-me a{
+  font-weight:19;
+  color:white;
+  text-decoration: none;
+  margin: right 20px;
+  background-color: black;
+  transition: background-color 2s ease; /* Transition effect */
+}
+
+
+.Education a{
+    font-weight:19;
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    transition: background-color 2s ease; /* Transition effect */
+}
+
+.Skills a{
+    font-weight:19;
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    transition: background-color 2s ease; /* Transition effect */
+}
+
+.Projects a{
+    font-weight:19;
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    transition: background-color 2s ease-in-out; /* Transition effect */
+}
+
+.translate{
+    background-color: black;
+}
+.translate:hover{
+    background-color: darkorange;
+}
+
+
+
+
+/* BODY */
+
+
+.image-container img {
+    /* You can style the image directly here */
+    width: 100%; /* Adjust as needed */
+    height: auto; /* This maintains aspect ratio */
+    /* Additional styles like border, box-shadow, etc. */
+}
+
+.Myself{
+    color:white;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+
+}
+
+.media-logo{
+    display:flex;
+    justify-content: initial;
+    margin-left: 100px;
+   
+
+
+}
+ 
+.insta-logo{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color:darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right:7px;
+    border:2px solid darkorange;
+}
+
+.fb-logo{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color:darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right:7px;
+    border:2px solid darkorange;
+
+}
+
+.github-logo{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color:darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right:7px;
+    border:2px solid darkorange;
+}
+
+.linkdin-logo{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color:darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right:7px;
+    border:2px solid darkorange;
+}
+
+.Xtwitter-logo{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color:darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right:7px;
+    border:2px solid darkorange;
+}
